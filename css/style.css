@@ -217,7 +217,7 @@ background-size: cover;
 box-shadow: 4px 4px 13px 0px rgba(0,0,0,0.75);
 }
 footer{
-  background:#0e3681 ;
+  background: #0a2967;
 
   background-size: cover;
   background-position: center;
@@ -329,17 +329,16 @@ align-items: end ;
   text-align: center;
   justify-content: center;
 }
-.cover-bg{
-  background: url('../img/vila-devis4.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
-
+.cover-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), url('../img/vila-devis4.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-background-size: cover;
-  background-attachment: scroll;
+  background-size: cover;
   background-blend-mode: multiply;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  height: 500px;
 }
+
 .swiper-button-next:after, .swiper-button-prev:after{
   color: #000000;
 }
