@@ -330,7 +330,7 @@ align-items: end ;
   justify-content: center;
 }
 .cover-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), url('../img/vila-devis4.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), url('../img/vila-devis8.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -439,7 +439,7 @@ font-size: 20px !important;
 
 /*rooms.html*/
 .section-bg{
-  background: url('../photos/img3.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
+  background: url('../img/vila-devis8.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -472,14 +472,16 @@ background-size: cover;
 
 /*about.html*/
 .section-bg1{
-  background: url('../photos/img8.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
+  background: url('../img/vila-devis1.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
 
-    background-attachment: fixed;
-    background-position:bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    height:500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-blend-mode: multiply;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
 
   }
 
@@ -491,16 +493,17 @@ background-size: cover;
 
 /*contact.html*/
 .section-bg2{
-  background: url('../photos/img4.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
+  background: url('../img/vila-devis3.jpg'),  linear-gradient(0deg, rgba(0, 0, 0, 0.824) 12%, rgba(0, 0, 0, 0.396) 53%);
 
   background-position: center;
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
   background-attachment: scroll;
   background-blend-mode: multiply;
   text-align: center;
   padding-top: 150px;
-  padding-bottom: 150px; 
+  padding-bottom: 150px;
+}
 }
 .contact-info-section {
   padding-top: 100px;
